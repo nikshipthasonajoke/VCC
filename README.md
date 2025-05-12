@@ -48,7 +48,7 @@ wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 sudo apt update
 sudo apt install grafana -y
 
-# Enable and start Grafana
+# Enable and started Grafana
 sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
 
